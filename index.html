@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Home page</title>
+</head>
+<style>
+
+    /* nev ccs */
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    #nev1{
+        height: 56px;
+        border-bottom: 1.2px solid rgb(221, 221, 221);
+        display: flex;
+        padding :4px 80px 4px 80px; 
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+
+    #logo{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        width: 60%;
+
+    }
+
+    #logo>img{
+        height: 70%;
+        border-radius: 30px;
+    }
+
+    #logo>div{
+        line-height: 2px;
+        color: #068258;
+        font-size: 13px;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    
+
+    #logo >div>p{
+        font-style: italic;
+    }
+
+    #pin{
+        width: 140px;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        border-left: 1px solid rgb(144, 144, 144);
+        height: 30px;
+    }
+   #pin >div{
+    line-height: 0px;
+    color: rgb(31, 31, 31);
+    font-size: 11px;
+   }
+
+    #nevlink{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        width: 400px;
+        display: flex;
+        font-weight: 500;
+    }
+    #nevlink>button{
+        padding: 10px 14px 10px 14px;
+        border: none;
+        background-color: #ddfff4;
+        border-radius: 8px;
+        font-size: 14px;
+
+    }
+    #nevlink>button:hover{
+        background-color: #c6f3e4;
+    }
+    #nevlink>a{
+        color: rgb(31, 31, 31);
+        font-size: 13px;
+        text-decoration: none;
+    }
+    #nevlink>a:hover{
+        color:#068258;
+        font-weight: 500;
+    }
+    #nev2{
+        height: 38px;
+        border-bottom: 1.2px solid rgb(221, 221, 221);
+        font-size: 13px;
+        
+    }
+    #nev2>div{
+        margin: auto;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    #nev2>div>a{
+        text-decoration: none;
+        color: rgb(31, 31, 31);
+        font-weight: 500;
+    }
+    #nev2>div>a:hover{
+        color:#068258;
+    }
+    /* ---------------------------------------------------- */
+
+    /* search andd product section*/
+
+    #search{
+        background-image: linear-gradient(#e8fff7 , #ffffff);
+        height: 200px;
+        width: 94%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #search>div{
+        width: 64%;
+        line-height: 0px;
+    }
+    #search>div>div{
+        display: flex;
+        justify-content: space-between;
+        height: 48px;
+        width: 100%;
+        border-radius: 50px;
+        padding: 4px;
+        background-color: #fff;
+        border: 1.2px solid rgb(212, 212, 212);
+        border-radius: 50px;
+        box-sizing: border-box;
+        box-shadow: rgba(149, 149, 149, 0.1) 0px 4px 6px -1px, rgba(70, 70, 70, 0.06) 0px 2px 4px -1px;
+    }
+    #search>div>div>input{
+        width: 100%;
+        border: none;
+        height: 100%;
+        border-radius: 50px;
+        padding-left: 24px;
+        box-sizing: border-box;
+    }
+    #search>div>h2{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    #search>div>p{
+        text-align: end;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    #search>div>p>a{
+        color: #068258;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    #search>div>div>button{
+       border-radius: 50px;
+       background-color: #068258;
+       color: #fff;
+       padding: 0px 20px 0px 20px;
+       border: none;
+       font-size: 14px;
+       font-weight: 600;
+    }
+    #search>div>div>button:hover{
+        background-color:#005d3e;
+    }
+
+    /* ------------------------------------- */
+
+    /* horizontal imp Cards  */
+
+    #impCards{
+        height: 160px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #impCards>div{
+        padding: 4px 12px 4px 12px;
+        line-height: 8px;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid rgb(233, 233, 233);
+        
+    }
+    #impCards>div:hover{
+        box-shadow: rgba(91, 91, 91, 0.24) 0px 3px 8px;
+    }
+
+    #impCards>div>img{
+     width: 80px;
+     margin: auto;
+    }
+/* ------------------------------------- */
+
+/* sliding images */
+#SlidingImg{
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#SlidingImg>img{
+    border-radius: 10px;
+    width: 40%;
+}
+
+</style>
+<body>
+     <div id="nev1">
+         <div id="logo">
+            <img src="./image/My Logo.jpg" alt="Something is Wrong">
+            <div>
+                <h2>SD PHARMA</h2>
+                <p>Make it easy</p>
+            </div>
+
+         <div id="pin">
+            <div>
+                <p>Express delivery to</p>
+                <h3>400001 Mumbai <i class="fa-solid fa-chevron-down"></i></h3>
+            </div>
+         </div>
+        </div>
+
+        <div id="nevlink">
+            <button>Download App</button>
+            <a href="">Hello, Log in</a>
+            <a href="">Offers</a>
+            <a href="">Cart</a>
+        </div>
+     </div>
+
+     <div id="nev2">
+       <div>
+        <a href="">Medicine</a>
+        <a href="">Lab Tests</a>
+        <a href="">Healthcare <i class="fa-solid fa-chevron-down"></i></a>
+        <a href="">Surgeries</a>
+        <a href="">Health Blogs</a>
+        <a href="">PLUS</a>
+        <a href="">Offers</a>
+        <a href="">Value Store</a>
+       </div>
+    </div>
+
+    <div id="search">
+        <div>
+            <h2>What are you looking for?</h2>
+            <p>Order with prescription. <a href="">UPLOAD NOW <i class="fa-solid fa-angle-right"></i></a></p>
+            <div>
+                <input type="text" placeholder=" Search for your requirment" name="" id="">
+                <button>Search</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="impCards">
+ 
+        <div>
+            <img src="https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0" alt="err">
+            <p>Medicine</p>
+            <p>UPTO 20% OFF</p>
+        </div>
+        <div>
+            <img src="https://assets.pharmeasy.in/apothecary/images/labtest_ff.webp?dim=256x0" alt="err">
+            <p>Medicine</p>
+            <p>UPTO 20% OFF</p>
+        </div>
+        <div>
+            <img src="https://assets.pharmeasy.in/apothecary/images/healthcare_ff.webp?dim=256x0" alt="err">
+            <p>Medicine</p>
+            <p>UPTO 20% OFF</p>
+        </div>
+        <div>
+            <img src="https://assets.pharmeasy.in/apothecary/images/offers_1_ff.webp?dim=256x0" alt="err">
+            <p>Medicine</p>
+            <p>UPTO 20% OFF</p>
+        </div>
+        <div>
+            <img src="https://assets.pharmeasy.in/apothecary/images/health_blogs_ff.webp?dim=256x0" alt="err">
+            <p>Medicine</p>
+            <p>UPTO 20% OFF</p>
+        </div>
+        <div>
+            <img src="https://assets.pharmeasy.in/apothecary/images/plus_ff.webp?dim=256x0" alt="err">
+            <p>Medicine</p>
+            <p>UPTO 20% OFF</p>
+        </div>
+        <div>
+            <img src="https://assets.pharmeasy.in/apothecary/images/offers_ff.webp?dim=256x0" alt="err">
+            <p>Medicine</p>
+            <p>UPTO 20% OFF</p>
+        </div>
+        <div>
+            <img src="https://assets.pharmeasy.in/apothecary/images/value_store.png?dim=256x0" alt="err">
+            <p>Medicine</p>
+            <p>UPTO 20% OFF</p>
+        </div>
+    </div>
+
+    <div id="SlidingImg">
+         <img id="img1" src="https://cdn01.pharmeasy.in/dam/banner/banner/2c01cfa0cf7-BOGO.jpg" alt="err">
+         <img id="img2" src="https://cdn01.pharmeasy.in/dam/banner/banner/9d6b610455f-STAR25.jpg" alt="err">
+         <img id="img3" src="https://cdn01.pharmeasy.in/dam/banner/banner/6985084ca2c-HOMEPAGE.jpg" alt="err">
+    </div>
+   
+</body>
+</html>
+
+<script>
+    let image1 = document.getElementById("img1")
+    let image2 = document.getElementById("img2")
+    let image3 = document.getElementById("img3")
+
+    let images = [
+        "https://cdn01.pharmeasy.in/dam/banner/banner/2c01cfa0cf7-BOGO.jpg",
+        "https://cdn01.pharmeasy.in/dam/banner/banner/9d6b610455f-STAR25.jpg",
+        "https://cdn01.pharmeasy.in/dam/banner/banner/6985084ca2c-HOMEPAGE.jpg"
+    ]
+
+    let a =0;
+    setInterval(function(){
+        image1.setAttribute("src", "https://cdn01.pharmeasy.in/dam/banner/banner/6985084ca2c-HOMEPAGE.jpg")
+        a++
+        if(a==1){
+            image1.setAttribute("src", "https://cdn01.pharmeasy.in/dam/banner/banner/6985084ca2c-HOMEPAGE.jpg")
+        }
+        
+    },3000)
+
+</script>
