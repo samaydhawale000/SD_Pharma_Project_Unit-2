@@ -108,7 +108,7 @@ let lauchesdata = [
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/F38650/liveasy-foods-roasted-peri-peri-makhana-rich-in-protein-fibre-assists-weight-loss-100-grams-2-1671742787.jpg?dim=700x0&dpr=1&q=100",
-       name :"Shelcal 500mg Strip Of 15 Tablets",
+       name :"Liveasy Foods Sugarfree Chyav..",
        price : 230.98,
        id:3
     },
@@ -190,22 +190,97 @@ display(lauchesdata)
         let current = data[i]
         btn.addEventListener("click", function(){
 
+            let flag = true
             for(let i=0; i<cartdata.length; i++){
-                if(cartdata[i].id !== current.id){
+                if(cartdata[i].id === current.id){
+                    flag = false
+                }
+            }
+                
+                if(flag == true){
                     cartdata.push(data[i])
                     localStorage.setItem("cart", JSON.stringify(cartdata))
-                    btn.innerText = Added
+                    btn.innerText = "Added"
+                    btn.style.opacity ="50%"
                     alert("Product added to a cart")
                 }
                 else{
-                    alert("Product  already in cart!")
+                    alert("Product already in cart")
+                    btn.innerText = "Added"
+                    btn.style.opacity ="50%"
                 }
-            }
-
         })
 
         div.append(image,name,price,btn)
         lau_main.append(div);
   }
   }
+
+let cardiv = document.querySelectorAll("#lau-main >div")
+
+let lau_left = document.getElementById("lau-left")
+let lau_right = document.getElementById("lau-right");
+
+  let lau_count = 0;
+
+lau_right.addEventListener("click", function(){
+    lau_count++
+
+    for(let i of cardiv){
+
+        if(lau_count==0){
+           i.style.left = "0px"
+        }
+        if(lau_count==1){
+           i.style.left = "-230px"
+        }
+        if(lau_count==2){
+           i.style.left = "-480px"
+        }
+        if(lau_count==3){
+           i.style.left = "-700px"
+        }
+        if(lau_count==4){
+            i.style.left = "-940px"
+         }
+         if(lau_count==5){
+            i.style.left = "-1100px"
+         }
+        
+        if(lau_count>5){
+           lau_count =5
+        }
+    }
+})
+lau_left.addEventListener("click", function(){
+    lau_count--
+
+    for(let i of cardiv){
+
+        if(lau_count==0){
+           i.style.left = "0px"
+        }
+        if(lau_count==1){
+           i.style.left = "-230px"
+        }
+        if(lau_count==2){
+           i.style.left = "-480px"
+        }
+        if(lau_count==3){
+           i.style.left = "-700px"
+        }
+        if(lau_count==4){
+            i.style.left = "-940px"
+         }
+         if(lau_count==5){
+            i.style.left = "-1100px"
+         }
+        if(lau_count<0){
+           lau_count =0
+        }
+    }
+})
+
+  
+
   
