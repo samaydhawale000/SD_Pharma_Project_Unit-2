@@ -7,232 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Home page</title>
 </head>
-<style>
+<link rel="stylesheet" href="./index.css">
 
-    /* nev ccs */
-
-    body{
-        margin: 0px;
-        padding: 0px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    }
-
-    #nev1{
-        height: 56px;
-        border-bottom: 1.2px solid rgb(221, 221, 221);
-        display: flex;
-        padding :4px 80px 4px 80px; 
-        box-sizing: border-box;
-        justify-content: space-between;
-    }
-
-    #logo{
-        display: flex;
-        height: 100%;
-        align-items: center;
-        width: 60%;
-
-    }
-
-    #logo>img{
-        height: 70%;
-        border-radius: 30px;
-    }
-
-    #logo>div{
-        line-height: 2px;
-        color: #068258;
-        font-size: 13px;
-        margin-left: 10px;
-        padding-right: 10px;
-    }
-    
-
-    #logo >div>p{
-        font-style: italic;
-    }
-
-    #pin{
-        width: 140px;
-        height: 100%;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        border-left: 1px solid rgb(144, 144, 144);
-        height: 30px;
-    }
-   #pin >div{
-    line-height: 0px;
-    color: rgb(31, 31, 31);
-    font-size: 11px;
-   }
-
-    #nevlink{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 100%;
-        width: 400px;
-        display: flex;
-        font-weight: 500;
-    }
-    #nevlink>button{
-        padding: 10px 14px 10px 14px;
-        border: none;
-        background-color: #ddfff4;
-        border-radius: 8px;
-        font-size: 14px;
-
-    }
-    #nevlink>button:hover{
-        background-color: #c6f3e4;
-    }
-    #nevlink>a{
-        color: rgb(31, 31, 31);
-        font-size: 13px;
-        text-decoration: none;
-    }
-    #nevlink>a:hover{
-        color:#068258;
-        font-weight: 500;
-    }
-    #nev2{
-        height: 38px;
-        border-bottom: 1.2px solid rgb(221, 221, 221);
-        font-size: 13px;
-        
-    }
-    #nev2>div{
-        margin: auto;
-        width: 50%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 100%;
-    }
-    #nev2>div>a{
-        text-decoration: none;
-        color: rgb(31, 31, 31);
-        font-weight: 500;
-    }
-    #nev2>div>a:hover{
-        color:#068258;
-    }
-    /* ---------------------------------------------------- */
-
-    /* search andd product section*/
-
-    #search{
-        background-image: linear-gradient(#e8fff7 , #ffffff);
-        height: 200px;
-        width: 94%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #search>div{
-        width: 64%;
-        line-height: 0px;
-    }
-    #search>div>div{
-        display: flex;
-        justify-content: space-between;
-        height: 48px;
-        width: 100%;
-        border-radius: 50px;
-        padding: 4px;
-        background-color: #fff;
-        border: 1.2px solid rgb(212, 212, 212);
-        border-radius: 50px;
-        box-sizing: border-box;
-        box-shadow: rgba(149, 149, 149, 0.1) 0px 4px 6px -1px, rgba(70, 70, 70, 0.06) 0px 2px 4px -1px;
-    }
-    #search>div>div>input{
-        width: 100%;
-        border: none;
-        height: 100%;
-        border-radius: 50px;
-        padding-left: 24px;
-        box-sizing: border-box;
-    }
-    #search>div>h2{
-        font-size: 22px;
-        font-weight: 600;
-    }
-    
-    #search>div>p{
-        text-align: end;
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-    #search>div>p>a{
-        color: #068258;
-        font-weight: 500;
-        font-size: 14px;
-        text-decoration: none;
-    }
-    #search>div>div>button{
-       border-radius: 50px;
-       background-color: #068258;
-       color: #fff;
-       padding: 0px 20px 0px 20px;
-       border: none;
-       font-size: 14px;
-       font-weight: 600;
-    }
-    #search>div>div>button:hover{
-        background-color:#005d3e;
-    }
-
-    /* ------------------------------------- */
-
-    /* horizontal imp Cards  */
-
-    #impCards{
-        height: 160px;
-        width: 90%;
-        margin: auto;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    #impCards>div{
-        padding: 4px 12px 4px 12px;
-        line-height: 8px;
-        font-size: 14px;
-        font-weight: 500;
-        border-radius: 10px;
-        text-align: center;
-        border: 1px solid rgb(233, 233, 233);
-        
-    }
-    #impCards>div:hover{
-        box-shadow: rgba(91, 91, 91, 0.24) 0px 3px 8px;
-    }
-
-    #impCards>div>img{
-     width: 80px;
-     margin: auto;
-    }
-/* ------------------------------------- */
-
-/* sliding images */
-#SlidingImg{
-    margin-top: 50px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-#SlidingImg>img{
-    border-radius: 10px;
-    width: 40%;
-}
-
-</style>
 <body>
+    <div class="mainnev">
      <div id="nev1">
          <div id="logo">
             <img src="./image/My Logo.jpg" alt="Something is Wrong">
@@ -269,6 +47,7 @@
         <a href="">Value Store</a>
        </div>
     </div>
+</div>
 
     <div id="search">
         <div>
@@ -326,33 +105,93 @@
     </div>
 
     <div id="SlidingImg">
-         <img id="img1" src="https://cdn01.pharmeasy.in/dam/banner/banner/2c01cfa0cf7-BOGO.jpg" alt="err">
-         <img id="img2" src="https://cdn01.pharmeasy.in/dam/banner/banner/9d6b610455f-STAR25.jpg" alt="err">
-         <img id="img3" src="https://cdn01.pharmeasy.in/dam/banner/banner/6985084ca2c-HOMEPAGE.jpg" alt="err">
+        <button id="left"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="right"><i class="fa-solid fa-angle-right"></i></button>
+       <div>
+         <img src="https://cdn01.pharmeasy.in/dam/banner/banner/2c01cfa0cf7-BOGO.jpg" alt="err">
+         <img src="https://cdn01.pharmeasy.in/dam/banner/banner/9d6b610455f-STAR25.jpg" alt="err">
+         <img src="https://cdn01.pharmeasy.in/dam/banner/banner/6985084ca2c-HOMEPAGE.jpg" alt="err">
+       </div>
     </div>
-   
+
+    <div id="features">
+        <h2>Lab Tests by Health Concern</h2>
+        <p>Powered by <img src="https://assets.pharmeasy.in/apothecary/images/Thyrocare.webp?dim=1440x0" alt=""></p>
+        <div>
+        <button id="fe-left"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="fe-right"><i class="fa-solid fa-angle-right"></i></button>
+        <div>
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/fc7cb3e07e2-checkups.png?dim=256x0" alt="err">
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/64444851b5e-BoneHealth.jpg?dim=256x0" alt="err">
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/6c5479c6c0c-Vitamins.jpg?dim=256x0" alt="err">
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/69588f95674-Diabetes.jpg?dim=256x0" alt="err">
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/c507b2563fd-thyroid.png?dim=256x0" alt="err">
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/eeb3fe3251f-WomenCare.jpg?dim=256x0" alt="err">
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/355e9b77fb5-FeverInfection.jpg?dim=256x0" alt="err">
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/6e78a241e48-CovidCare.jpg?dim=256x0" alt="err">
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/a953829ca96-Heart.jpg?dim=256x0" alt="err">
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/94616a36a9a-Lifestyle.jpg?dim=256x0" alt="err">
+          </div>
+        </div>
+    </div>
+
+    <div id="offerdiv">
+        <h2>Offers Just for You</h2>
+        <div>
+            <div>
+                <img src="https://cms-contents.pharmeasy.in/offer/efdb30f3981-25_off.jpg?dim=1440x0" alt="err">
+                <p>FLAT 25% OFF + FREE DELIVERY on first 3 medicine orders.</p>
+            </div>
+            <div>
+                <img src="https://cms-contents.pharmeasy.in/offer/efdb30f3981-25_off.jpg?dim=1440x0" alt="err">
+                <p>Log in to view more offers</p>
+            </div>
+            <div>
+                <p>Get FREE delivery</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="prescription">
+       <div>
+        <img src="https://assets.pharmeasy.in/apothecary/images/rx_upload.svg?dim=1440x0" alt="err">
+        <div>
+            <h3>Order with Prescription</h3>
+            <p>Upload prescription and we will deliver your medicine</p>
+            <button>Upload</button>
+        </div>
+       </div>
+       <div>
+        <p>How does this work?</p>
+        <div>
+            <div>1.Upload a photo of your prescription</div>
+            <div>3.We will call you to confirm the medicines</div>
+            <div>2.Add delivery address and place the order</div>
+            <div>4.Now, sit back! your medicines will get delivered at your doorstep</div>
+        </div>
+       </div>
+    </div>
+
+    <div id="newLaunches">
+        <h2>New Launches</h2>
+        <p>New wellness range just for you!</p>
+         <div>
+           <button id="lau-left"><i class="fa-solid fa-angle-left"></i></button>
+           <button id="lau-right"><i class="fa-solid fa-angle-right"></i></button>
+            <div id="lau-main">
+            </div>
+         </div>
+        </div>
+    </div>
+
 </body>
 </html>
 
+ 
+
+<script src="./index.js"></script>
+
 <script>
-    let image1 = document.getElementById("img1")
-    let image2 = document.getElementById("img2")
-    let image3 = document.getElementById("img3")
 
-    let images = [
-        "https://cdn01.pharmeasy.in/dam/banner/banner/2c01cfa0cf7-BOGO.jpg",
-        "https://cdn01.pharmeasy.in/dam/banner/banner/9d6b610455f-STAR25.jpg",
-        "https://cdn01.pharmeasy.in/dam/banner/banner/6985084ca2c-HOMEPAGE.jpg"
-    ]
-
-    let a =0;
-    setInterval(function(){
-        image1.setAttribute("src", "https://cdn01.pharmeasy.in/dam/banner/banner/6985084ca2c-HOMEPAGE.jpg")
-        a++
-        if(a==1){
-            image1.setAttribute("src", "https://cdn01.pharmeasy.in/dam/banner/banner/6985084ca2c-HOMEPAGE.jpg")
-        }
-        
-    },3000)
 
 </script>
