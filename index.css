@@ -10,6 +10,7 @@
         top: 0px;
         background-color: #fff;
         z-index: 2;
+        
     }
 
     #nev1{
@@ -447,6 +448,10 @@
     margin: auto;
     width: 86%;
 }
+#newLaunches>h2{
+    font-weight: 600;
+    margin-bottom: -10px;
+}
 
 #newLaunches>div{
     margin: auto;
@@ -471,6 +476,8 @@
     padding: 20px;
     box-sizing: border-box;
     border-radius: 10px;
+    position: relative;
+    transition: 0.5s;
 }
 #lau-main>div:hover{
     box-shadow: rgba(91, 91, 91, 0.24) 0px 3px 8px;
@@ -520,4 +527,7 @@
 }
 #lau-main>div>button:hover{
     background-color:hsl(162, 100%, 94%)
+}
+#lau-main>div>h4{
+    font-weight: 500;
 }
