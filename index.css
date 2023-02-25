@@ -27,7 +27,6 @@
         height: 100%;
         align-items: center;
         width: 60%;
-
     }
 
     #logo>img{
@@ -43,9 +42,16 @@
         padding-right: 10px;
     }
     
+    #logo >div>a{
+        font-size: 18px;
+        text-decoration: none;
+        color:#068258 ;
+        font-weight: 700;
+    }
 
     #logo >div>p{
         font-style: italic;
+        margin-bottom: 0px;
     }
 
     #pin{
@@ -723,16 +729,16 @@
     border-radius: 10px;
     padding: 14px 14px 0px 14px;
     box-sizing: border-box;
-    background-color: #ebfff9;
+    background-color: #e2fff6;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 #frequanty>div>div:nth-child(2){
-    background-color: #fdffee;
+    background-color: #fcffe6;
 }
 #frequanty>div>div:nth-child(4){
-    background-color: #fdffee;
+    background-color: #fcffe6;
 }
 #frequanty>div>div:hover{
     box-shadow: rgba(91, 91, 91, 0.24) 0px 3px 8px;
@@ -758,7 +764,7 @@
     padding: 6px 10px 6px 10px;
     border-radius: 4px;
     border:none;
-    background-color: rgb(255, 223, 163);
+    background-color: #97ffde;
     width: 80px;
 }
 #frequanty>div>div>div>img{
@@ -842,4 +848,78 @@
     border-radius: 10px;
     margin-right: 20px;
  }
+/* ------------------------------------ */
+ #choseUs{
+    width: 86%;
+    margin: 60px auto;
+    background-color: #f0fffa;
+    padding: 20px 30px 20px 30px;
+ }
+ #choseUs>div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+ #choseUs>div>div{
+     width: 100%;
+     display: flex;
+ }
+ #choseUs>div>div>div{
+    display: flex;
+    justify-content: space-between;
+    margin-right:20px ;
+    align-items: center;
+}
  
+ #choseUs>div>div>div>div{
+  margin-right: 20px;
+ }
+ #choseUs>div>div>div>div>img{
+    width: 80px;
+   }
+ #choseUs>div>div>div>div>p{
+    margin-top: -10px;
+ }
+
+ /* ----------------------------------- */
+ #footer{
+    width: 94%;
+    margin: auto;
+    background-color: #e3fff6;
+    padding: 10px 40px 40px 40px;
+    box-sizing: border-box;
+ }
+ #footer>div>div{
+     display: flex;
+     justify-content: space-between;
+     line-height: 14px;
+ }
+ #footer>div>div>div>p{
+    font-size: 13px;
+ }
+ #footer>div>div>div>p:hover{
+    cursor: pointer;
+    color: #00c080;
+ }
+ #footer>div>div>div>h4{
+    margin-top: 40px;
+    font-weight: 500;
+ }
+ #footer>div>div>div>img{
+    margin: 0px 12px 0px 0px ;
+    width: 30px;
+ }
+
+#logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+#logos>div>h4{
+    margin-top: 0px;
+}
+#logos>div>div>img{
+    height: 16px;
+    margin-right: 36px;
+}
