@@ -1,10 +1,29 @@
 
-    let left = document.getElementById("left")
+   let left = document.getElementById("left")
     let right = document.getElementById("right")
 
     let images  = document.querySelectorAll("#SlidingImg>div>img")
     console.log( images)
     let a =0;
+
+   //  setInterval(function(){
+   //    a++
+   //    for(let i of images){
+   //       if(a==0){
+   //          i.style.left = "0px"
+   //      }
+   //      if(a==1){
+   //      i.style.left = "-400px"
+   //      }
+   //      if(a==2){
+   //       i.style.left = "-800px"
+   //       }
+   //      if(a==3){
+   //          a=0
+   //      }
+   //      }
+   //  },4000)
+
     right.addEventListener("click", function(){
        a++
 
@@ -13,22 +32,28 @@
             i.style.left = "0px"
         }
         if(a==1){
-        i.style.left = "-300px"
+        i.style.left = "-400px"
         }
-        if(a>1){
-            a=1
+        if(a==2){
+         i.style.left = "-800px"
+         }
+        if(a>2){
+            a=2
         }
        }
     })
     left.addEventListener("click", function(){
        a--
        for(let i of images){
-        if(a==0){
+         if(a==0){
             i.style.left = "0px"
         }
         if(a==1){
-        i.style.left = "-240px"
+        i.style.left = "-400px"
         }
+        if(a==2){
+         i.style.left = "-800px"
+         }
         if(a<0){
             a=0
         }
