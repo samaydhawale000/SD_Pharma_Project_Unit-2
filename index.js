@@ -124,73 +124,85 @@ let lauchesdata = [
        image: "https://cdn01.pharmeasy.in/dam/products/159115/shelcal-500mg-strip-of-15-tablets-2-1674482021.jpg?dim=1440x0",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 280.98,
-       id:1
+       id:1,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/6cd3f7cf650135a0a95f826ce220a475.png?f=png?dim=256x0",
        name :"Pharmeasy Pill Box Organizer",
        price : 432.98,
-       id:2
+       id:2,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/cfc8ee511609321e91eb86a34f5b2885.png?f=png?dim=256x0",
        name :"Liveasy Foods Sugarfree Chyav..",
        price : 230.98,
-       id:3
+       id:3,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/X21346/colgate-total-240g-120g-x-2-pack-of-2-whole-mouth-health-advanced-health-saver-pack-2-1674196905.jpg?dim=1440x0",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 280.98,
-       id:4
+       id:4,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/O88855/fiama-shower-gel-blackcurrant-bearberry-body-wash-for-radiant-glow-250ml-bottle-2-1674205237.jpg?dim=1440x0",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 180.98,
-       id:5
+       id:5,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/N06656/durex-air-ultra-thin-condom-3-nos-1-1670314578.jpg?dim=1440x0",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 20.98,
-       id:6
+       id:6,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/K78780/pharmeasy-pill-box-organizer-2-1669349726.jpg?dim=1440x0",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 680.98,
-       id:7
+       id:7,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/000665/accu-chek-active-glucometer-test-strips-box-of-50-1-1669655023.jpg?dim=1440x0",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 880.98,
-       id:8
+       id:8,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/G40689/siddhayu-gokshura-tablet-by-baidyanath-mens-wellness-60-20-tablets-free-pack-of-2-2-1671744387.jpg?dim=1440x0",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 280.98,
-       id:9
+       id:9,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/156565/saridon-headache-relief-tablet-strip-of-10-tablets-2-1677127042.jpg?dim=1440x0",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 70.98,
-       id:10
+       id:10,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/071710/evion-400mg-strip-of-10-capsules-2-1671741393.jpg?dim=1440x0",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 60.98,
-       id:11
+       id:11,
+       quantity:1
     },
     {
        image: "https://cms-contents.pharmeasy.in/carousel_item/7a381fcb6e9-App_dettol-min.png?dim=1440x0",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 780.98,
-       id:12
+       id:12,
+       quantity:1
     },
 ]
 
@@ -326,73 +338,85 @@ let trendingdata = [
        image: "https://cdn01.pharmeasy.in/dam/products_otc/A78012/indulekha-bringha-ayurvedic-hair-oil-100-mlcomb-applicator-bottle-for-men-women-2-1674196201.jpg?dim=1440x0",
        name :"Indulekha Bringha Ayurvedi..",
        price : 180.78,
-       id:13
+       id:13,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/Y86033/navratna-ayurvedic-cool-hair-oil-bottle-of-200-ml-2-1654233081.jpg",
        name :"Navratna Ayurvedic Cool Hair Oil..",
        price : 222.58,
-       id:14
+       id:14,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/J82705/kapiva-ashwagandha-gold-capsules-helps-in-stress-management-100-ayurvedic-60-n-caps-2-1671743969.jpg?dim=1440x0",
        name :"Ashwagandha gold Capsules..",
        price : 170.12,
-       id:15
+       id:15,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/I42242/dabur-stresscom-120-caps-2-1669711034.jpg?dim=700x0&dpr=1&q=100",
        name :"Dabur Stresscom 120 Caps",
        price : 180.32,
-       id:16
+       id:16,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/I44880/acne-uv-spf-50-gel-50gm-1-1669711072.jpg?dim=1440x0",
        name :"Everherb (By Pharmeasy)..",
        price : 180.56,
-       id:17
+       id:17,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/E01682/wow-skin-science-blemish-care-serum-50-ml-2-1671742206.jpg?dim=700x0&dpr=1&q=100",
        name :"Wow Skin Science Blemish Care..",
        price : 220.32,
-       id:18
+       id:18,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/N65859/liveasy-essentials-aloe-vera-refreshing-and-cleansing-face-wipes-20s-2-1671743461.jpg",
        name :"Liveasy Essentials Aloe Vera Ref..",
        price : 80.99,
-       id:19
+       id:19,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/192351/i-pill-emergency-contraceptive-pill-2-1672279640.jpg?dim=700x0&dpr=1&q=100",
        name :"I-Pill Emergency Contraceptive Pill",
        price : 111.45,
-       id:20
+       id:20,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/V99935/ahaglow-spf-40-skin-protect-gel-60gm-2-1641788908.jpg?dim=700x0&dpr=1&q=100",
        name :"Ahaglow Spf 40 Skin Protect Gel 60gm",
        price : 120.76,
-       id:21
+       id:21,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/A65047/liveasy-essentials-bamboo-cotton-buds-80-sticks-160-swabs-1-1671742385.jpg",
        name :"Shelcal 500mg Strip Of 15 Tablets",
        price : 100.3,
-       id:22
+       id:22,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/E39028/nourrir-protectme-spf-55-sunscreen-gel-60-g-2-1671743460.jpg?dim=700x0&dpr=1&q=100",
        name :"Nourrir Protectme Spf 55 Sunscreen..",
        price : 160.09,
-       id:23
+       id:23,
+       quantity:1
     },
     {
        image: "https://cdn01.pharmeasy.in/dam/products_otc/M56307/new-photostable-spf55-sunscreen-emulgel-50g-2-1671744622.jpg?dim=700x0&dpr=1&q=100",
        name :"New Photostable Spf55+ Sunscreen..",
        price : 140.78,
-       id:24
+       id:24,
+       quantity:1
     },
 ]
 
