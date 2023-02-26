@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    padding-top: 20px;
+    background-color:#e0ffef;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#login{
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 30px;
+    background-color:#ffffff;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    background-image:linear-gradient( to bottom right, #f5fffa,#bffcdd,#ddfced,#94ffca,#62dda0);
+    border-radius: 20px 20px 0px 0px;
+    box-sizing: border-box;
+}
+
+#logo>div{
+    display: flex;
+    align-items: center;
+    line-height: 6px;
+}
+
+#logo>div>img{
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 22px;
+    
+}
+#logo>img{
+    width: 100px;
+    opacity: 70%;
+}
+#logo >div>div>a{
+    font-size: 22px;
+    text-decoration: none;
+    color:#068258 ;
+    font-weight: 700;
+}
+#logo >div>div>p{
+    font-style: italic;
+    margin-bottom: 0px;
+    color:#068258 ;
+}
+
+#inputs >h3{
+    color:#068258;
+    margin: 30px 0px 30px 50px ;
+    font-weight: 500;
+}
+
+#inputs>input{
+    display: block;
+    margin: auto;
+    width: 82%;
+    margin-bottom: 30px;
+    height: 40px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid rgb(154, 154, 154);
+    font-size: 16px;
+}
+#inputs>input:placeholder-shown{
+    opacity: 50%;
+}
+
+#inputs>button{
+    height: 46px;
+    margin: auto;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 82%;
+    background-color: #068258;
+    cursor: pointer;
+}
+#inputs>button:hover{
+    background-color: #006845;
+}
+#inputs>p{
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#inputs>p>a{
+    font-size: 14px;
+    color: #006845;
+    font-weight: 600;
+}
+#inputs>:nth-child(2){
+    margin-top: -10px;
+}
+#back{
+    text-decoration: none;
+    margin: 50px;
+    font-weight: 600;
+    color: #006845;
+}
