@@ -25,7 +25,7 @@ btn.addEventListener("click", function(){
             number: number.value =""
             password: password.value =""
             setTimeout(function(){
-                location.href = "http://127.0.0.1:5500/index.html"
+                location.href = "./index.html"
             },1000)
     }
     else{

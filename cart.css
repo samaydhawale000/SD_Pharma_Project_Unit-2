@@ -119,7 +119,7 @@ cursor: pointer;
 #nev2>div>a:hover{
     color:#068258;
 }
-
+/* --------------------------------------------------- */
 #cart{
     width: 86%;
     margin: 40px auto;
@@ -142,6 +142,7 @@ text-decoration: none;
 color: #068258 ;
 
 }
+
 #cart>div>div>div>h2{
     font-weight: 500;
 }

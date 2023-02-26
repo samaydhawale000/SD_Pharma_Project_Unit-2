@@ -31,7 +31,7 @@ btn.addEventListener("click", function(){
         tagline.style.fontWeight = "600"
 
         setTimeout(function(){
-            location.href = "http://127.0.0.1:5500/login.html"
+            location.href = "./login.html"
         },1000)
     }
     
